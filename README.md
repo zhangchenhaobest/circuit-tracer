@@ -1,5 +1,31 @@
 # circuit-tracer
 
+[English](#english) | [简体中文](#简体中文)
+
+---
+
+## English
+
+A model interpretability tool that traces LLM reasoning by visualizing attribution graphs of internal features and connections.
+
+> This repository is a fork. For full documentation, see the upstream repository.
+
+[简体中文](#简体中文)
+
+---
+
+## 简体中文
+
+读懂大模型「脑回路」的可视化工具，生成归因图呈现 LLM 内部超节点连接与信息处理路径。
+
+> 本项目为 fork，详细文档请以原仓库为准。
+
+[English](#english)
+
+---
+
+# circuit-tracer
+
 This library implements tools for finding circuits using features from (cross-layer) MLP transcoders, as originally introduced by [Ameisen et al. (2025)](https://transformer-circuits.pub/2025/attribution-graphs/methods.html) and [Lindsey et al. (2025)](https://transformer-circuits.pub/2025/attribution-graphs/biology.html).
 
 Our library performs three main tasks. 
